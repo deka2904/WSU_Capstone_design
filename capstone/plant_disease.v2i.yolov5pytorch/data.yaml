@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['black-spot', 'downy-mildew', 'normal', 'powdery-mildew', 'blight']
+
+roboflow:
+  workspace: cutflower-disease-detection-and-classification
+  project: cut-flower-disease
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/cutflower-disease-detection-and-classification/cut-flower-disease/dataset/2
